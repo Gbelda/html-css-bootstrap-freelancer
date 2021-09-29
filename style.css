@@ -28,12 +28,34 @@
     height: 150px;
 }
 /* ************************************************************************ */
+/*********************************************
+                    COMMON
+**********************************************/
+
+.hero,
+.about,
+.nav{
+    color: white;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+/**********************************************
+                        NAV
+************************************************/
+
+
 .nav{
     height: 70px;
 }
 
-.nav_title h1{
-    color: white;
+header{
+    background-color: #2C3E50;
+}
+
+.nav_title h2{
     font-size: 1.5rem;
 }
 
@@ -41,5 +63,45 @@
 .nav_menu{
     display: flex;
     align-items: center;
-    height: 100%;
+}
+
+.nav_menu i{
+    color: lightgray;
+    font-size: 1.2rem;
+}
+
+/**********************************************
+                    HERO
+***********************************************/
+
+
+.hero{
+    background-color: #1ABC9C;
+    justify-content: center;
+}
+
+.hero img{
+    width: 50%;
+
+}
+
+.hero .col{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bar{
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.star{
+    font-size: 2rem;
+}
+
+.persona{
+    font-weight: 500;
 }
