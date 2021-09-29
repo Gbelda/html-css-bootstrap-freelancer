@@ -3,7 +3,7 @@
     height: 70px;
 }
 
-.debug [class^="row"]{
+.debug main [class^="row"]{
     height: 200px;
 }
 
@@ -27,4 +27,19 @@
     background-color: maroon;
     height: 150px;
 }
+/* ************************************************************************ */
+.nav{
+    height: 70px;
+}
 
+.nav_title h1{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav_title,
+.nav_menu{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
