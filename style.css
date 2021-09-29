@@ -42,6 +42,10 @@ h1{
     font-size: 2.5rem;
 }
 
+h2{
+    font-size: 1.7rem;
+}
+
 /**********************************************
                         NAV
 ************************************************/
@@ -55,7 +59,7 @@ header{
     background-color: #2C3E50;
 }
 
-.nav_title h2{
+.nav_title h3{
     font-size: 1.5rem;
 }
 
@@ -85,7 +89,8 @@ header{
 
 }
 
-.hero .col{
+.hero .col,
+.portfolio .col{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -94,7 +99,6 @@ header{
 
 .bar{
     height: 5px;
-    background-color: white;
     border-radius: 10px;
 }
 
@@ -104,4 +108,24 @@ header{
 
 .persona{
     font-weight: 500;
+}
+
+/*************************************************
+                    PORTFOLIO
+************************************************/
+.portfolio .bar{
+    background-color: #2C3E50;
+}
+
+.portfolio .star{
+    color: #2C3E50;
+}
+
+.portfolio img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.portfolio [class^="col"] {
+    padding-top: 30px;
 }
