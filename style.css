@@ -17,6 +17,10 @@ h2{
     font-size: 1.7rem;
 }
 
+.hero,
+.about{
+    background-color: #1ABC9C;
+}
 /**********************************************
                         NAV
 ************************************************/
@@ -58,7 +62,8 @@ header{
 
 .hero .col,
 .portfolio .col,
-.about .col{
+.about .col,
+.contact .col{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -81,11 +86,12 @@ header{
 /*************************************************
                     PORTFOLIO
 ************************************************/
-.portfolio .bar{
+.portfolio .bar,
+.contact .bar{
     background-color: #2C3E50;
 }
 
-.portfolio .star{
+.star.blue{
     color: #2C3E50;
 }
 
@@ -101,3 +107,34 @@ header{
 /*************************************************
                     ABOUT
 *************************************************/
+
+.about p{
+    font-size: 1.4rem;
+    font-size: 500;
+
+}
+
+.btn{
+    font-size: 1.3rem;
+}
+
+.input,
+.send{
+    all: unset;
+
+}
+
+textarea,
+.input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+}
+
+.send{
+    color: white;
+    font-weight: 500;
+    background-color: #1ABC9C;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
