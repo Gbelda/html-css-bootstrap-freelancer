@@ -3,3 +3,28 @@
     height: 70px;
 }
 
+.debug [class^="row"]{
+    height: 200px;
+}
+
+.debug .hero{
+    background-color: rgb(0, 143, 143);
+}
+
+.debug .portfolio{
+    background-color: gray;
+}
+
+.debug .about{
+    background-color: indigo;
+}
+
+.debug .contact{
+    background-color: lightsalmon;
+}
+
+.debug .closer{
+    background-color: maroon;
+    height: 150px;
+}
+
