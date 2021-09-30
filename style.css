@@ -20,6 +20,7 @@ h1{
 
 h2{
     font-size: 1.7rem;
+    font-weight: 700;
 }
 
 .hero,
@@ -75,8 +76,9 @@ h2{
 /**********************************************
                     HERO
 ***********************************************/
-
-
+.hero p{
+    margin: 1rem 0;
+}
 
 .hero img{
     width: 50%;
@@ -108,6 +110,7 @@ h2{
 .portfolio img{
     border-radius: 20px;
     width: 100%;
+    padding: 0px 5px;
 }
 
 .portfolio [class^="col"] {
@@ -119,8 +122,8 @@ h2{
 *************************************************/
 
 .about p{
-    font-size: 1.4rem;
-    font-size: 500;
+    font-size: 1.3rem;
+    font-weight: 500;
 
 }
 
