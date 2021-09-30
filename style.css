@@ -4,9 +4,10 @@
                     COMMON
 **********************************************/
 
+.nav,
 .hero,
 .about,
-.nav{
+footer{
     color: white;
 }
 
@@ -32,6 +33,12 @@ h2{
     flex-wrap: wrap;
     align-items: center;
 }
+.navbar,
+.copyright,
+.portfolio .bar,
+.contact .bar{
+    background-color: #2C3E50;
+}
 
 /**********************************************
                         NAV
@@ -46,9 +53,6 @@ h2{
     height: 70px;
 }
 
-.navbar{
-    background-color: #2C3E50;
-}
 
 .nav_title h3{
     font-size: 1.5rem;
@@ -92,10 +96,6 @@ h2{
 /*************************************************
                     PORTFOLIO
 ************************************************/
-.portfolio .bar,
-.contact .bar{
-    background-color: #2C3E50;
-}
 
 .star.blue{
     color: #2C3E50;
@@ -125,6 +125,10 @@ h2{
     font-size: 1.3rem;
 }
 
+/****************************************************
+                        CONTACT ME
+*****************************************************/
+
 .input,
 .send{
     all: unset;
@@ -146,3 +150,27 @@ textarea,
     border-radius: 10px;
 }
 
+/*********************************************
+                    FOOTER
+**********************************************/
+
+.bg_pastel_blue{
+    background-color: #3A546D;
+}
+
+footer .row .foot_section {
+    text-align: center;
+}
+
+
+footer .copyright p{
+    font-size: .8rem;
+}
+
+.btn{
+    font-size: 1rem;
+}
+
+.twitter .btn{
+    padding: 6px 10px;
+}
