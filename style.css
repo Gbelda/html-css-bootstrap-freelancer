@@ -94,6 +94,17 @@ h2{
     font-size: 2rem;
 }
 
+.white.star::before,
+.white.star::after{
+    content: "";
+    height: 5px;
+    border-radius: 10px;
+    background-color: white;
+    width: 125px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .persona{
     font-weight: 500;
 }
@@ -101,6 +112,18 @@ h2{
 /*************************************************
                     PORTFOLIO
 ************************************************/
+
+.blue.star::before,
+.blue.star::after{
+    content: "";
+    height: 5px;
+    border-radius: 10px;
+    background-color: #2C3E50;
+    width: 125px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 .star.blue{
     color: #2C3E50;
