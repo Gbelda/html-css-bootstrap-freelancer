@@ -18,93 +18,109 @@
     </head>
 
     <body>
-        <header class="container">
-            <div class="row nav">
-                <div class="nav_title col-6 offset-1">
-                    <h3>
-                        START BOOTSTRAP
-                    </h3>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="nav_menu col-1 offset-3">
-                    <i class="fas fa-bars py-2 px-3 border border-white
-                        rounded-3"></i>
-                </div>
-            </div>
+            </nav>
         </header>
         <!-- NAV -->
 
 
-        <main>
+        <main class="container">
+            <div class="row hero">
+                <div class="col">
+                    <img src="./img/avatar.svg" alt="">
 
-            <div class="container">
-                <div class="row hero">
+                    <h1 class="col-12 d-flex justify-content-center py-3">
+                        START BOOTSTRAP
+                    </h1>
                     <div class="col">
-                        <img src="./img/avatar.svg" alt="">
-                        <h1 class="col-12 d-flex justify-content-center py-3">
-                            START BOOTSTRAP
-                        </h1>
-
-                        <div class="col">
-                            <div class="bar bg-white col-2">
-                            </div>
-                            <div class="star px-2">
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="bar bg-white col-2">
-                            </div>
+                        <div class="bar bg-white col-2">
                         </div>
-                        <!-- DIVIDER -->
-
-                        <div class="col-12 justify-content-center d-flex pb-2">
-                            <p class="persona">
-                                GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
-                            </p>
+                        <div class="star px-2">
+                            <i class="fas fa-star"></i>
                         </div>
+                        <div class="bar bg-white col-2">
+                        </div>
+                    </div>
+                    <!-- DIVIDER -->
+
+                    <div class="col-12 justify-content-center d-flex pb-2">
+                        <p class="persona">
+                            GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                        </p>
                     </div>
                 </div>
             </div>
             <!-- HERO -->
 
-            <div class="container">
-                <div class="row portfolio py-4">
-                    <div class="col">
 
-                        <h2 class="col-12 d-flex justify-content-center py-3">
-                            PORTFOLIO
-                        </h2>
-                        <div class="bar col-2">
-                        </div>
-                        <div class="star blue px-3">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="bar col-2">
-                        </div>
-                        <!-- DIVIDER -->
+            <div class="row portfolio py-4">
+                <div class="col">
 
-                        <div class="col-12">
-                            <img src="./img/cabin.png" alt="">
-                        </div>
-                        <div class="col-12">
-                            <img src="./img/cake.png" alt="">
-                        </div>
-                        <div class="col-12">
-                            <img src="./img/circus.png" alt="">
-                        </div>
-                        <div class="col-12">
-                            <img src="./img/game.png" alt="">
-                        </div>
-                        <div class="col-12">
-                            <img src="./img/safe.png" alt="">
-                        </div>
-                        <div class="col-12">
-                            <img src="./img/submarine.png" alt="">
-                        </div>
+                    <h2 class="col-12 d-flex justify-content-center py-3">
+                        PORTFOLIO
+                    </h2>
+                    <div class="bar col-2">
+                    </div>
+                    <div class="star blue px-3">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="bar col-2">
+                    </div>
+                    <!-- DIVIDER -->
+
+                    <div class="col-12">
+                        <img src="./img/cabin.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="./img/cake.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="./img/circus.png"
+                            alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="./img/game.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="./img/safe.png" alt="">
+                    </div>
+                    <div class="col-12">
+                        <img src="./img/submarine.png"
+                            alt="">
                     </div>
                 </div>
             </div>
+
             <!-- PORTFOLIO -->
 
-            <div class="container about">
+            <div class="about">
                 <div class="row">
                     <div class="col pt-5">
                         <h2 class="col-12 d-flex justify-content-center py-3">
@@ -190,7 +206,9 @@
                             Message
                         </h4>
                         <textarea class="textarea" rows="7"></textarea>
-                        <button type="button" class="send py-3 px-4 mt-2">Send</button>
+                        <button type="button" class="send py-3 px-4 mt-2">
+                            Send
+                        </button>
                     </div>
                 </div>
 

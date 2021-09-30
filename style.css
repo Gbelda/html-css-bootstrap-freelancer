@@ -1,4 +1,5 @@
 
+
 /*********************************************
                     COMMON
 **********************************************/
@@ -21,16 +22,31 @@ h2{
 .about{
     background-color: #1ABC9C;
 }
+
+.hero .col,
+.portfolio .col,
+.about .col,
+.contact .col{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 /**********************************************
                         NAV
 ************************************************/
+.navbar-brand{
+    font-weight: 500;
+}
 
+.navbar
 
 .nav{
     height: 70px;
 }
 
-header{
+.navbar{
     background-color: #2C3E50;
 }
 
@@ -60,16 +76,6 @@ header{
 
 }
 
-.hero .col,
-.portfolio .col,
-.about .col,
-.contact .col{
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .bar{
     height: 5px;
     border-radius: 10px;
@@ -95,9 +101,10 @@ header{
     color: #2C3E50;
 }
 
+
 .portfolio img{
-    width: 100%;
     border-radius: 20px;
+    width: 100%;
 }
 
 .portfolio [class^="col"] {
@@ -138,3 +145,4 @@ textarea,
     font-size: 1.3rem;
     border-radius: 10px;
 }
+
