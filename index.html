@@ -20,7 +20,7 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-md navbar-dark">
-                <div class="container-fluid">
+                <div class="container">
                     <a class="navbar-brand" href="#">START BOOTSTRAP</a>
                     <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse"
@@ -53,9 +53,10 @@
 
         <main class="container-fluid">
             <div class="row hero">
-                <div class="col">
+                <div class="col-12 col-md-8 offset-md-2 d-flex justify-content-center">
                     <img src="./img/avatar.svg" alt="">
-
+                </div>
+                    
                     <h1 class="col-12 d-flex justify-content-center py-3">
                         START BOOTSTRAP
                     </h1>
@@ -67,7 +68,7 @@
                         </div>
                         <div class="bar bg-white col-2">
                         </div>
-                    </div>
+                </div>
                     <!-- DIVIDER -->
 
                     <div class="col-12 justify-content-center d-flex pb-2">
@@ -75,12 +76,11 @@
                             GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
                         </p>
                     </div>
-                </div>
             </div>
             <!-- HERO -->
 
 
-            <div class="row portfolio py-4">
+            <div class="container portfolio py-4">
                 <div class="col">
                     <div class="divider d-flex flex-wrap justify-content-center
                         align-items-center w-100">
@@ -138,10 +138,7 @@
                     </div>
                 </div>
                 <!-- DIVIDER -->
-
-                <div class="col-8">
-                    <div class="row">
-                        <div class="col-12 mx-auto col-md-5">
+                         <div class="col-8 offset-2 col-md-4 offset-md-2">
                             <p class="pt-5">
                                 Freelancer is a free bootstrap theme created by
                                 Start Bootstrap. The download includes the
@@ -153,7 +150,7 @@
                             </p>
                         </div>
 
-                        <div class="col-12 mx-auto col-md-6">
+                        <div class="col-8 offset-2 col-md-4 offset-md-0">
                             <p class="pt-5">
                                 Whether you're a student looking to showcase
                                 your
@@ -163,22 +160,21 @@
                                 this template is the perfect starting point!
                             </p>
                         </div>
+                    <div class="col-12">
+                        <div class="col-12 d-flex justify-content-center py-4">
+                            <button type="button" class="btn btn-outline-light">
+                                <span><i class="fas fa-download"></i></span>
+                                Download
+                            </button>
+                        </div>
                     </div>
                 </div>
 
 
-                <div class="col-12">
-                    <div class="col-12 d-flex justify-content-center py-4">
-                        <button type="button" class="btn btn-outline-light">
-                            <span><i class="fas fa-download"></i></span>
-                            Download
-                        </button>
-                    </div>
-                </div>
             </div>
             <!-- ABOUT -->
 
-            <div class="row contact">
+            <div class="container contact">
                 <div class="row">
                     <div class="col pt-5">
                         <h2 class="col-12 d-flex justify-content-center py-3">
@@ -196,7 +192,7 @@
                 <!-- DIVIDER -->
 
                 <div class="row justify-content-center">
-                    <div class="col-8">
+                    <div class="col-9">
                         <h4>
                             Name
                         </h4>
@@ -227,7 +223,7 @@
 
         <footer class="py-5 container-fluid">
             <div class="row bg_pastel_blue">
-                <div class="col-12">
+                <div class="col-12 col-md-4">
                     <div class="foot_section pt-5">
                         <h6>
                             LOCATION
@@ -238,13 +234,13 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 col-md-4">
                     <div class="foot_section pt-5">
                         <h6>
                             AROUND THE WEB
                         </h6>
                         <ul class="nav flex-row justify-content-center">
-                            <li class="nav-item mb-2">
+                            <li class="nav-item">
                                 <a href="#" class="nav-link p-0 text-light">
                                     <button type="button" class="btn
                                         btn-outline-light rounded-circle">
@@ -252,7 +248,7 @@
                                     </button>
                                 </a>
                             </li>
-                            <li class="nav-item mb-2">
+                            <li class="nav-item">
                                 <a href="#" class="nav-link p-0 text-light">
                                     <button type="button" class="btn
                                         btn-outline-light rounded-circle">
@@ -260,7 +256,7 @@
                                     </button>
                                 </a>
                             </li>
-                            <li class="nav-item mb-2 twitter">
+                            <li class="nav-item twitter">
                                 <a href="#" class="nav-link p-0 text-light">
                                     <button type="button" class="btn
                                         btn-outline-light rounded-circle">
@@ -268,7 +264,7 @@
                                     </button>
                                 </a>
                             </li>
-                            <li class="nav-item mb-2">
+                            <li class="nav-item">
                                 <a href="#" class="nav-link p-0 text-light">
                                     <button type="button" class="btn
                                         btn-outline-light rounded-circle">
@@ -281,7 +277,7 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-8 offset-2 col-md-4 offset-md-0">
                     <div class="foot_section pt-5">
                         <h6>
                             ABOUT FREELANCER
