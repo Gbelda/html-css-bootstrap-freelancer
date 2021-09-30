@@ -3,6 +3,9 @@
 /*********************************************
                     COMMON
 **********************************************/
+body{
+    font-family: 'Almarai', sans-serif;
+}
 
 .nav,
 .hero,
@@ -128,6 +131,9 @@ h2{
 /****************************************************
                         CONTACT ME
 *****************************************************/
+footer{
+    font-weight: 500;
+}
 
 .input,
 .send{
@@ -153,6 +159,10 @@ textarea,
 /*********************************************
                     FOOTER
 **********************************************/
+footer h6{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
 
 .bg_pastel_blue{
     background-color: #3A546D;
@@ -162,15 +172,29 @@ footer .row .foot_section {
     text-align: center;
 }
 
+footer .nav-item{
+    padding: 0px 10px;
+}
 
-footer .copyright p{
-    font-size: .8rem;
+
+footer p{
+    font-size: 1.4em;
+
 }
 
 .btn{
-    font-size: 1rem;
+    font-size: 1.1rem;
+    padding: 15px 20px;
 }
 
-.twitter .btn{
-    padding: 6px 10px;
+footer .highlight{
+    color: #1ABC9C;
+}
+
+.copyright p{
+    font-size: .8rem;
+}
+
+.fa-facebook-f{
+    padding: 0px 3px;
 }
